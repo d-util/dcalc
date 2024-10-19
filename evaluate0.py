@@ -22,7 +22,9 @@ def splitexpr(exp):
 
 # Function to return precedence of operators
 def prec(c):
-    if c == '^':
+    if c == '%' or c == '//':
+        return 4
+    elif c == '^' or c == 'rt':
         return 3
     elif c == '/' or c == '*':
         return 2
@@ -77,6 +79,10 @@ def evalpostfix(pf):
                 stack.append(n1 ** n2)
             elif pf[i] == 'rt':
                 stack.append(n2 ** (1 / n1))
+            elif pf[i] == '%':
+                stack.append(n1 % n2)
+            elif pf[i] == '//':
+                stack.append(n1 // n2)
     return stack[-1]
 
 def format_out(flt, frac=False):
