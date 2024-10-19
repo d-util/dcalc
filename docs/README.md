@@ -1,5 +1,11 @@
 # Documentation for DCALC
 # Calculators
+## November prereleases
+###[v0.11b1](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.1)
+Fixed minor bugs from last beta.
+second of four planned beta releases
+<br><br><br>
+
 ## October 2024
 ### v0.1019.0 - Ported to github
 ### v0.1018.4 - Main part of "main.py" in "evaluate0.py" for the evaluation method.
