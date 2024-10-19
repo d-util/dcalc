@@ -1,7 +1,7 @@
 # Documentation for DCALC
 # Calculators
 ## November prereleases
-###[v0.11b1](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.1)
+###[v0.11b2](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.2)
 Fixed minor bugs from last beta.
 second of four planned beta releases
 <br><br><br>
