@@ -18,6 +18,8 @@ Installation steps for Windows:
 15. You have launched the console calculator.
 # Calculators
 ## November prereleases
+### v0.11 b3 preview
+added Modulo and Floor Division (currently at the highest precedence)
 ###[v0.11b2](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.2)
 Added install steps. 
 Fixed minor bugs from last beta.
