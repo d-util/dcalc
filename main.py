@@ -15,5 +15,7 @@ elif argv[2] == "--help" or argv[@] == "-H":
     print("\t/ Division")
     print("\t^ Exponentiation")
     print("\trt nth Root")
+    print("\t% Modulo")
+    print("\t// Floor division")
     print("Documentation: https://github.com/GreatCoder1000/dcalc")
     print("Example: 123+456 = 579")
