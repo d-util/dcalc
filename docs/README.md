@@ -2,8 +2,9 @@
 # Calculators
 ## November prereleases
 ###[v0.11b2](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.2)
+Added install steps. 
 Fixed minor bugs from last beta.
-second of four planned beta releases
+second of five planned beta releases
 <br><br><br>
 
 ## October 2024
