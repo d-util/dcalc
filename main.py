@@ -6,7 +6,7 @@ if len(argv) == 2:
     expr = input(">>>")
     ans = evalt.evaluate(expr)
     print(evalt.format_out(ans))
-elif argv[2] == "--help" or argv[@] == "-H":
+elif argv[2] == "--help" or argv[0] == "-H":
     print("Usage: python main.py")
     print("Operators: ")
     print("\t+ Addition")

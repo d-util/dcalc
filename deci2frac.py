@@ -1,3 +1,4 @@
+# Function for decimal to fraction
 def deci2frac(decimal, max_denominator=1000):
     denominator = 0
     numerator_guesser = [1]
