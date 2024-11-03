@@ -130,11 +130,13 @@ def evaluate(expr):
 from sys import argv, exit
 
 if len(argv) < 2 or argv[0] != "python":
-    print("Type in the expression at the prompt.")
-    expression = input(">>>")
-    answer = evaluate(expression)
-    print(format_out(answer))
-    exit()
+    while True:
+        print("Type in the expression at the prompt.")
+        expression = input(">>>")
+        if "quit" in expression or "exit" in expression:
+            exit()
+        answer = evaluate(expression)
+        print(format_out(answer))
 else:
     if argv[-1] == "--help" or argv[-1] == "-H":
         print("Usage: dcalc")
