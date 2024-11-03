@@ -124,6 +124,8 @@ def format_out(flt, frac=False):
     return out
 
 def evaluate(expr):
+    if len(splitexpr(expr.replace(" ", ""))) < 2:
+        return float(expr)
     ans = evalpostfix(topostfix(splitexpr(expr.replace(" ", ""))))
     return ans
 
@@ -137,16 +139,19 @@ if len(argv) < 2 or argv[0] != "python":
             exit()
         try:
             answer = evaluate(expression)
+            print(format_out(answer))
         except AttributeError:
-            pass
-        except AssertionError:
             pass
         except ArithmeticError:
             pass
         except IndexError:
             pass
+        except TypeError:
+            pass
+        except ValueError:
+            pass
         else:
-            print(format_out(answer))
+            pass
         print("")
 else:
     if argv[-1] == "--help" or argv[-1] == "-H":
