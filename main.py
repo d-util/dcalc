@@ -129,15 +129,16 @@ def evaluate(expr):
 
 from sys import argv, exit
 
-if len(argv) == 2:
+if len(argv) < 2 or argv[0] != "python":
     print("Type in the expression at the prompt.")
     expression = input(">>>")
     answer = evaluate(expression)
     print(format_out(answer))
     exit()
-if len(argv) > 2:
-    if argv[2] == "--help" or argv[2] == "-H":
-        print("Usage: python main.py")
+else:
+    if argv[-1] == "--help" or argv[-1] == "-H":
+        print("Usage: dcalc")
+        print("Usage: python main.py (in direct usage via source code)")
         print("Operators: ")
         print("\t+ Addition")
         print("\t- Subtraction")
