@@ -127,23 +127,25 @@ def evaluate(expr):
     ans = evalpostfix(topostfix(splitexpr(expr.replace(" ", ""))))
     return ans
 
-from sys import argv
+from sys import argv, exit
 
 if len(argv) == 2:
     print("Type in the expression at the prompt.")
     expression = input(">>>")
     answer = evaluate(expression)
     print(format_out(answer))
-elif argv[2] == "--help" or argv[0] == "-H":
-    print("Usage: python main.py")
-    print("Operators: ")
-    print("\t+ Addition")
-    print("\t- Subtraction")
-    print("\t* Multiplication")
-    print("\t/ Division")
-    print("\t^ Exponentiation")
-    print("\trt nth Root")
-    print("\t% Modulo")
-    print("\t// Floor division")
-    print("Documentation: https://github.com/GreatCoder1000/dcalc")
-    print("Example: 123+456 = 579")
+    exit()
+if len(argv) > 2:
+    if argv[2] == "--help" or argv[2] == "-H":
+        print("Usage: python main.py")
+        print("Operators: ")
+        print("\t+ Addition")
+        print("\t- Subtraction")
+        print("\t* Multiplication")
+        print("\t/ Division")
+        print("\t^ Exponentiation")
+        print("\trt nth Root")
+        print("\t% Modulo")
+        print("\t// Floor division")
+        print("Documentation: https://github.com/GreatCoder1000/dcalc")
+        print("Example: 123+456 = 579")
