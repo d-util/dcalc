@@ -1,6 +1,7 @@
 # Documentation for DCALC
 ### Installation
-click [here](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.2) to redirect to Release page.
+click [here](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11.3) to redirect to release page.
+click [here](https://github.com/GreatCoder1000/dcalc/releases/download/v0.11.3/dcalc.exe) to download
 # Calculators
 ## NOV 2024
 Extra Bugfixes
