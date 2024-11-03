@@ -2,6 +2,8 @@
 ### Installation
 click [here](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.2) to redirect to Release page.
 # Calculators
+## NOV 2024
+Extra Bugfixes
 ## November prereleases
 ### v0.11 b3 preview
 added Modulo and Floor Division (currently at the highest precedence)<br>
