@@ -135,8 +135,18 @@ if len(argv) < 2 or argv[0] != "python":
         expression = input(">>>")
         if "quit" in expression or "exit" in expression:
             exit()
-        answer = evaluate(expression)
-        print(format_out(answer))
+        try:
+            answer = evaluate(expression)
+        except AttributeError:
+            pass
+        except AssertionError:
+            pass
+        except ArithmeticError:
+            pass
+        except IndexError:
+            pass
+        else:
+            print(format_out(answer))
         print("")
 else:
     if argv[-1] == "--help" or argv[-1] == "-H":
