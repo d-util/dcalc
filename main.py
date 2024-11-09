@@ -1,4 +1,11 @@
 import math
+import os
+def clear_terminal():
+# Check the operating system
+    if os.name == 'nt': # Windows
+        os.system('cls')
+    else: # MacOS, Linux
+        os.system('clear')
 
 def deci2frac(decimal, max_denominator=1000):
     """Decimal to fraction"""
@@ -137,6 +144,9 @@ if len(argv) < 2 or argv[0] != "python":
         expression = input(">>>")
         if "quit" in expression or "exit" in expression:
             exit()
+        if "cls" in expression.split() or "clr" in expression.split() or "clear" in expression.split():
+            clear_terminal()
+            continue
         try:
             answer = evaluate(expression)
             print(format_out(answer))
