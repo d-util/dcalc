@@ -1,11 +1,4 @@
 import math
-import os
-def clear_terminal():
-# Check the operating system
-    if os.name == 'nt': # Windows
-        os.system('cls')
-    else: # MacOS, Linux
-        os.system('clear')
 
 def deci2frac(decimal, max_denominator=1000):
     """Decimal to fraction"""
