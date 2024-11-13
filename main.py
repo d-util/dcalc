@@ -1,4 +1,6 @@
 import math
+name = "Dcalc"
+version = "0.11.5"
 
 def deci2frac(decimal, max_denominator=1000):
     """Decimal to fraction"""
@@ -131,15 +133,12 @@ def evaluate(expr):
 
 from sys import argv, exit
 
-if len(argv) < 2 or argv[0] != "python":
+if "-" not in argv:
     print("Type in the expression at the prompt.")
     while True:
         expression = input(">>>")
         if "quit" in expression or "exit" in expression:
             exit()
-        if "cls" in expression.split() or "clr" in expression.split() or "clear" in expression.split():
-            clear_terminal()
-            continue
         try:
             answer = evaluate(expression)
             print(format_out(answer))
@@ -171,3 +170,5 @@ else:
         print("\t// Floor division")
         print("Documentation: https://github.com/GreatCoder1000/dcalc")
         print("Example: 123+456 = 579")
+    elif argv[-1] == "--ver" or argv[-1] == "--version" or argv[-1] == "-V":
+        print(f"{name} {version}")
