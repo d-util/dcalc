@@ -2,19 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-
-### Added
-- New feature to enhance security.
-- Documentation for the new feature.
-
-### Changed
-- Updated the algorithm for better efficiency.
-
-### Fixed
-- Resolved issue with data parsing (#123).
-
-## [1.2.1] - 2024-10-20
+## [v0.11.5] - 2024-11-13
 ### Added
 - Feature to export data in CSV format.
 
