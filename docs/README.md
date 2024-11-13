@@ -1,18 +1,13 @@
 # Documentation for DCALC
+### What is this?
+This is some software intended for Software Development practice.
+### Is this exactly what I was looking for?
+Probably not. Check out the licence instead.
 ### Installation
 click [here](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11.5) to redirect to release page.<br>
 click [here](https://github.com/GreatCoder1000/dcalc/releases/download/v0.11.5/dcalc.exe) to download
-# Calculators
-## NOV 2024
-Extra Bugfixes. Sudden death fixed.
-[v0.11.5](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11.5)
-## November prereleases
-### v0.11beta
-added Modulo and Floor Division (currently at the highest precedence)<br>
-[v0.11b3](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11-beta.3)
-Added install steps. 
-Fixed minor bugs from last beta.
-second of five planned beta releases
+# Calculators Changelog
+### [v0.11.5](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11.5)
 <br><br><br>
 
 ## October 2024
