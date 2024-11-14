@@ -1,4 +1,4 @@
-# Documentation for DCALC
+# DCALC
 ### What is this?
 This is some software intended for Software Development practice.
 ### Is this exactly what I was looking for?
