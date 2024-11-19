@@ -1,4 +1,6 @@
 # DCALC
+VERSION 0.12 Beta 0 Build 0 Revision 1
+(small hotfix happened that was not added to .exe file)
 ### What is this?
 This is some software intended for Software Development practice.
 ### Is this exactly what I was looking for?
