@@ -145,7 +145,7 @@ if "-" not in argv:
             days_since_2000 = (seconds_since_1970 / 86400) - 10957
             bpd = 362759
             dpd = 170934
-            population = 8188828110 + round((days_since_2000 - 9088) * bpd) - round((days_since_2000 - 9088) * dpd)
+            population = 8188828109 + round((days_since_2000 - 9088) * bpd) - round((days_since_2000 - 9088) * dpd)
             print(population)
             continue
         try:
