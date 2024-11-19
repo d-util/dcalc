@@ -4,9 +4,10 @@ This is some software intended for Software Development practice.
 ### Is this exactly what I was looking for?
 Probably not. Check out the licence instead.
 ### Installation
-click [here](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11.5) to redirect to release page.<br>
-click [here](https://github.com/GreatCoder1000/dcalc/releases/download/v0.11.5/dcalc.exe) to download
+click [here](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.12.0-beta.0) to redirect to release page.<br>
+click [here](https://github.com/GreatCoder1000/dcalc/releases/download/v0.12.0-beta.0/dcalc.exe) to download
 # Calculators Changelog
+### [v0.12.0-beta.0](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.12.0-beta.0)
 ### [v0.11.5](https://github.com/GreatCoder1000/dcalc/releases/tag/v0.11.5)
 <br><br><br>
 
