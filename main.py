@@ -1,6 +1,7 @@
 import math
 name = "Dcalc"
-version = "0.11.5"
+version = "0.12.0-beta.0"
+from datetime import datetime
 
 def deci2frac(decimal, max_denominator=1000):
     """Decimal to fraction"""
@@ -139,6 +140,14 @@ if "-" not in argv:
         expression = input(">>>")
         if "quit" in expression or "exit" in expression:
             exit()
+        if "population" in expression.lower():
+            seconds_since_1970 = datetime.now().timestamp()
+            days_since_2000 = (seconds_since_1970 / 86400) - 10957
+            bpd = 362759
+            dpd = 170934
+            population = 8188828110 + round((days_since_2000 - 9088) * bpd) - round((days_since_2000 - 9088) * dpd)
+            print(population)
+            continue
         try:
             answer = evaluate(expression)
             print(format_out(answer))
@@ -156,7 +165,7 @@ if "-" not in argv:
             pass
         print("")
 else:
-    if argv[-1] == "--help" or argv[-1] == "-H":
+    if "--help" in argv or "-H" in argv:
         print("Usage: dcalc")
         print("Usage: python main.py (in direct usage via source code)")
         print("Operators: ")
@@ -170,5 +179,6 @@ else:
         print("\t// Floor division")
         print("Documentation: https://github.com/GreatCoder1000/dcalc")
         print("Example: 123+456 = 579")
-    elif argv[-1] == "--ver" or argv[-1] == "--version" or argv[-1] == "-V":
+        print("type 'population' at the prompt for current population.")
+    elif "--version" in argv or "-V" in argv:
         print(f"{name} {version}")
