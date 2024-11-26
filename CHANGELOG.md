@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.0-alpha.3] - 2024-12-26
+## [v1.0.0-alpha.0] - 2024-12-23 
 ## [v0.11.5] - 2024-11-13
 ### Added
 - Feature to export data in CSV format.
