@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usage - Dcalc Documentation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -16,6 +17,11 @@
                 <li><a href="usage.html">Usage</a></li>
                 <li><a href="api_reference.html">API Reference</a></li>
             </ul>
+            <select id="version-select" onchange="goToVersion()">
+                <option value="1.0.0">1.0.0</option>
+                <option value="0.11.5">0.11.5</option>
+                <!-- Add more versions as needed -->
+            </select>
         </nav>
     </header>
     <main>
