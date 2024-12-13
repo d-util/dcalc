@@ -1,6 +1,6 @@
 import math
 name = "Dcalc"
-version = "1.0.0-alpha.3"
+version = "1.0.0-alpha.4"
 from datetime import datetime
 
 def deci2frac(decimal, max_denominator=1000):
