@@ -134,7 +134,7 @@ def evaluate(expr):
 
 from sys import argv, exit
 
-if "-" not in argv:
+if "--help" not in argv and "-h" not in argv and "-H" not in argv and "--version" not in argv and "-v" not in argv and "-V" not in argv: # We'll fix the condition later
     print("Type in the expression at the prompt.")
     while True:
         expression = input(">>>")
